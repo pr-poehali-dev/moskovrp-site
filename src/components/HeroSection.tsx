@@ -9,12 +9,6 @@ const HeroSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="font-gaming font-black text-4xl md:text-6xl lg:text-7xl">
-              <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-                MOSKOV
-              </span>
-              <span className="text-foreground">RP</span>
-            </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
               Присоединяйтесь к лучшему Minecraft серверу с уникальной ролевой
               механикой
@@ -25,6 +19,9 @@ const HeroSection = () => {
             <Button
               size="lg"
               className="gaming-gradient text-white font-semibold px-8 py-3 rounded-xl gaming-glow hover:scale-105 transition-all duration-200"
+              onClick={() =>
+                alert("Зайдите на версию 1.20.1 и введите IP: play.moskovrp.ru")
+              }
             >
               <Icon name="Play" size={20} className="mr-2" />
               Начать играть

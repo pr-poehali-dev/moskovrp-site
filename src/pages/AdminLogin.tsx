@@ -7,57 +7,57 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 /*
-Список из 50 случайных администраторских паролей:
+Список администраторских паролей для доступа к панели:
 1. RedStone2024!
-2. DiamondSword99
-3. CreeperKing#77
-4. NetherPortal@88
-5. EnderDragon$55
+2. DiamondSword99#
+3. CreeperKing@77
+4. NetherPortal$88
+5. EnderDragon!55
 6. ObsidianWall&23
-7. GoldenApple!91
+7. GoldenApple#91
 8. IronPickaxe@34
-9. LapisLazuli#67
-10. EmeraldBlock$12
+9. LapisLazuli$67
+10. EmeraldBlock!12
 11. BlazePowder&45
-12. WitherSkull!78
+12. WitherSkull#78
 13. BeaconLight@56
-14. SlimeBlock#89
-15. RedstoneCircuit$33
+14. SlimeBlock$89
+15. RedstoneCircuit!33
 16. PistonPower&71
-17. CommandBlock!24
+17. CommandBlock#24
 18. SpawnerEgg@93
-19. EnchantedBook#18
-20. PotionBrewing$62
+19. EnchantedBook!18
+20. PotionMaster$62
 21. NetherStar&84
-22. DragonEgg!37
-23. TotemUndying@51
-24. TridentThrow#95
-25. ElytraFlight$29
-26. ShulkerBox&73
-27. ChorusFlower!46
-28. PurpurBlock@68
-29. EndCrystal#82
-30. VoidBlock$15
-31. AdminCommand&59
+22. DragonEgg#37
+23. TotemGuard@51
+24. TridentStorm!95
+25. ElytraFly$29
+26. ShulkerVault&73
+27. ChorusFruit#46
+28. PurpurStone@68
+29. EndCrystal!82
+30. VoidWalker$15
+31. AdminAccess&59
 32. ServerOwner!94
 33. ModeratorKey@27
 34. HelperRole#76
-35. BuilderAccess$41
-36. EventManager&83
-37. SecurityCheck!58
-38. AccessGranted@32
-39. PermissionNode#97
-40. RoleAssign$64
+35. BuilderPro$41
+36. EventHost&83
+37. SecurityPass!58
+38. AccessGrant@32
+39. Permission#97
+40. RoleManager$64
 41. BanHammer&19
-42. KickPower!86
+42. KickSystem!86
 43. MuteControl@49
-44. WarnSystem#72
+44. WarnActive#72
 45. TempBan$35
-46. IPBan&91
-47. WhitelistAdd!53
-48. BlacklistRemove@74
-49. ConfigEdit#26
-50. DatabaseAccess$88
+46. IPBlock&91
+47. WhitelistOp!53
+48. BlacklistDel@74
+49. ConfigMaster#26
+50. DatabaseRoot$88
 */
 
 const AdminLogin = () => {
